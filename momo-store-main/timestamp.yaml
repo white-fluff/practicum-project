@@ -1,0 +1,15 @@
+timestamp:
+  03-12-2023-09:38:
+    reason: little fix pipeline and test
+  03-12-2023-10:05:
+    reason: fix notification jobs
+  03-12-2023-10:20:
+    reason: fix notification jobs
+  03-12-2023-11:25:
+    reason: local testing, little fix in Dockerfile front
+  03-12-2023-18:37:
+    reason: test full pipeline
+  12-12-2023-12:25:
+    reason: Change Dockerfile Frontend
+  12-12-2023-12:37:
+    reason: Change Dockerfile Backend

@@ -1,0 +1,13 @@
+---
+backend:
+  image: gitlab.praktikum-services.ru:5050/std-015-39/momo-store/momo-backend:1.0.956017
+  replicas: 3
+  maxUnavaliable: 80%
+  maxSurge: 20%
+  port: 8081
+
+frontend:
+  image: gitlab.praktikum-services.ru:5050/std-015-39/momo-store/momo-frontend:1.0.956016
+  replicas: 1
+  domain: "momo-store.white-fluff.com"
+  port: 80
