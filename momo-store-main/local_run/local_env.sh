@@ -12,7 +12,7 @@ CI_REGISTRY_USER=registry_login
 CI_REGISTRY_PASSWORD=registry_pass
 
 # Login into registry
-docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD gitlab.praktikum-services.ru:5050
+docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD example_repo.net
 
 # Run
 docker compose up -d
